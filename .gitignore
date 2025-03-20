@@ -1,2 +1,9 @@
 .vscode
 labeled_data.csv
+ipynb_checkpoints
+bert-hate-speech
+bert-hate-speech2
+bert-lora-finetuned
+deepseek-lora-finetuned
+hateSpeechDatasetBalanced.csv
+Finetune.py

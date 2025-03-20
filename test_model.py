@@ -3,7 +3,7 @@ import pandas as pd
 import json
 import re
 
-MODEL_NAME = "deepseek-r1:1.5b"
+MODEL_NAME = "deepseek-r1:32b"
 
 def analyze_text(tweet):
     prompt = """please analyse the text provided for offensiveness and hatespeech and return a JSON with the following structure: 
@@ -65,4 +65,4 @@ def process_csv(input_csv, output_json):
     print(f"Processed {count} tweets")
 
 if __name__ == "__main__":
-    process_csv('short_labeled_data.csv', 'deepseek_r1_1.5b_analysis.json')
+    process_csv('short_labeled_data.csv', 'deepseek_r1_32b_analysis.json')
